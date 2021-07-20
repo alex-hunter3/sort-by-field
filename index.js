@@ -1,4 +1,4 @@
-function quicksort(sequence) {
+export function quicksort(sequence) {
   if (sequence.length === 1) return sequence;
 
   const pivot = sequence[sequence.length - 1];
@@ -21,7 +21,7 @@ function quicksort(sequence) {
 }
 
 // quicksort to sort any sequence by a specific field
-function sortByField(sequence, field) {
+export default function sortByField(sequence, field) {
   if (sequence.length === 1) return sequence;
 
   const pivot = sequence[sequence.length - 1];
