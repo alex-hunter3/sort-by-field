@@ -1,6 +1,6 @@
 {
   "name": "sort-by-field",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple library for sorting an array of objects by a custom field.",
   "main": "index.js",
   "scripts": {
